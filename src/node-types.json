@@ -1694,6 +1694,11 @@
     }
   },
   {
+    "type": "field_identifier",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "for_statement",
     "named": true,
     "fields": {
@@ -2130,6 +2135,11 @@
         ]
       }
     }
+  },
+  {
+    "type": "identifier",
+    "named": true,
+    "fields": {}
   },
   {
     "type": "if_statement",
@@ -3465,6 +3475,11 @@
     }
   },
   {
+    "type": "statement_identifier",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "storage_class_specifier",
     "named": true,
     "fields": {}
@@ -3483,6 +3498,10 @@
         },
         {
           "type": "string_content",
+          "named": true
+        },
+        {
+          "type": "stringification",
           "named": true
         }
       ]
@@ -3810,6 +3829,11 @@
     }
   },
   {
+    "type": "type_identifier",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "type_qualifier",
     "named": true,
     "fields": {},
@@ -3981,6 +4005,10 @@
   },
   {
     "type": "\"",
+    "named": false
+  },
+  {
+    "type": "##",
     "named": false
   },
   {
@@ -4425,20 +4453,12 @@
     "named": true
   },
   {
-    "type": "field_identifier",
-    "named": true
-  },
-  {
     "type": "for",
     "named": false
   },
   {
     "type": "goto",
     "named": false
-  },
-  {
-    "type": "identifier",
-    "named": true
   },
   {
     "type": "if",
@@ -4517,15 +4537,15 @@
     "named": false
   },
   {
-    "type": "statement_identifier",
-    "named": true
-  },
-  {
     "type": "static",
     "named": false
   },
   {
     "type": "string_content",
+    "named": true
+  },
+  {
+    "type": "stringification",
     "named": true
   },
   {
@@ -4546,10 +4566,6 @@
   },
   {
     "type": "true",
-    "named": true
-  },
-  {
-    "type": "type_identifier",
     "named": true
   },
   {
